@@ -41,3 +41,4 @@ You may choose to send a REST signal instead of using the rest call when there a
   1. REST configuration is complete
 
 ### Configuring the Start Signal Event
+1. Coming soon
