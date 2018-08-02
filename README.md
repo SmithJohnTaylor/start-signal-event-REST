@@ -41,6 +41,7 @@ You may choose to send a REST signal instead of using the rest call when there a
     HTTP method: POST
     Base endpoint: http://<aps_host>:<aps_port>
     Rest URL: /activiti-app/api/runtime/signals?tenantId=<your_tenant_id>
+    
     ![rest endpoint](/Resources/defining_endpoint_REST.png)
   1. REST configuration is complete
 
