@@ -7,7 +7,9 @@ You may choose to send a REST signal instead of using the rest call when there a
 
 ### Configuring the REST call
 1. Define the REST endpoint under "Endpoints" in the Identity Management > Tenants > Endpoints section
+![endpoint config](Resources/defining_rest_endpoint.png)
 1. Define the REST header authentication in the under "Basic Auths" in the Identity Management > Tenants > Endpoints section
+![auth config](/Resources/defining_basic_auth_header.png)
 1. In your process, add a REST call task activity.
 1. Configure the REST call task:
   1.  Request mapping:
@@ -38,6 +40,7 @@ You may choose to send a REST signal instead of using the rest call when there a
     HTTP method: POST
     Base endpoint: http://<aps_host>:<aps_port>
     Rest URL: /activiti-app/api/runtime/signals?tenantId=<your_tenant_id>
+    ![rest endpoint](/Resources/defining_endpoint_REST.png)
   1. REST configuration is complete
 
 ### Configuring the Start Signal Event
