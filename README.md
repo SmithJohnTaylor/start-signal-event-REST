@@ -56,3 +56,7 @@ You may choose to send a REST signal instead of using the rest call when there a
 ![signal ref](/Resources/defining_signal_ref.png)
 1. If you are passing variables with the signal, as defined in your REST call, define those variables in the global space of the process
 1. Build out the rest of your process
+
+## References
+
+https://www.activiti.org/5.x/userguide/#_signal_event_received
