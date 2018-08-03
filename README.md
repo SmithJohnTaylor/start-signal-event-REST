@@ -41,9 +41,18 @@ You may choose to send a REST signal instead of using the rest call when there a
     HTTP method: POST
     Base endpoint: http://<aps_host>:<aps_port>
     Rest URL: /activiti-app/api/runtime/signals?tenantId=<your_tenant_id>
-    
+
     ![rest endpoint](/Resources/defining_endpoint_REST.png)
   1. REST configuration is complete
 
 ### Configuring the Start Signal Event
-1. Coming soon
+1. In the editor for the process that will catch the signal, open up the signal definition and add a new signal:
+![signal definition](/Resources/defining_signal.png)
+1. The signal name needs to match what you defined in the REST call, or vice versa:
+![signal config](/Resources/defining_signal_values.png)
+  1. The scope needs to be global
+1. Next, add a Start Signal Event to the process
+1. Under the configuration for the event, select your defined signal from the drop down under Signal Reference
+![signal ref](/Resources/defining_signal_ref.png)
+1. If you are passing variables with the signal, as defined in your REST call, define those variables in the global space of the process
+1. Build out the rest of your process
