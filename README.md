@@ -43,7 +43,8 @@ You may choose to send a REST signal instead of using the rest call when there a
     Rest URL: /activiti-app/api/runtime/signals?tenantId=<your_tenant_id>
 
     ![rest endpoint](/Resources/defining_endpoint_REST.png)
-  1. REST configuration is complete
+  
+  REST configuration is complete
 
 ### Configuring the Start Signal Event
 1. In the editor for the process that will catch the signal, open up the signal definition and add a new signal:
