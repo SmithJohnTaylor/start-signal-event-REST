@@ -19,7 +19,7 @@ You may choose to send a REST signal instead of using the rest call when there a
       {
           "signalName":"mysignal",
           "tenantId":"tenant_1",
-          "async":"true",
+          "async":"false",
           "variables":
             [
               {
