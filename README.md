@@ -1,5 +1,5 @@
 # Start Signal Event with REST example
-## Using Alfresco Process Services powered by Activiti, this example will demonstrate how to throw a signal in the global scope of the tenant for other processes to catch.
+## Using Alfresco Process Services (powered by Activiti), this example will demonstrate how to throw a signal in the global scope of the tenant for other processes to catch.
 
 I am going to show one example of how to use a signal to start a process, but there a several ways to use the signal event.
 
